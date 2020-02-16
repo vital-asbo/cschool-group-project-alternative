@@ -25,13 +25,13 @@ public class DataHardCoder implements CommandLineRunner {
         employees.setSalary(9000);
         employees.setAddress("Złota");
         employees.setStartJobDate(new Date());
-        employees.setEmail("crimson.kuba@gmail.com");
+        employees.setEmail("jan.nowak@gmail.com");
 
         employeesRepository.save(employees);
 
         Cars cars = new Cars();
         cars.setEmployees(employees);
-        cars.setModel("126p");
+        cars.setModel("500c");
         cars.setName("Fiat");
 
         carsRepository.save(cars);
